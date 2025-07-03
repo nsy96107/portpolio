@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | 남서연</title>
+  <!-- font -->
+  <link href="https://font.elice.io/css?family=Elice+Digital+Baeum" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery.fullPage.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <nav>
+          <ul class="gnb">
+            <li data-menuanchor="menu1"><a href="#menu1">Intro</a></li>
+            <li data-menuanchor="menu2"><a href="#menu2">AboutMe</a></li>
+            <li data-menuanchor="menu3"><a href="#menu3">Portfolio</a></li>
+            <li data-menuanchor="menu4"><a href="#menu4">Graphic</a></li>
+            <li data-menuanchor="menu5"><a href="#menu5">Promotion</a></li>
+            <li data-menuanchor="menu6"><a href="#menu6">Artwork</a></li>
+          </ul>
+        </nav>
+
+        <div class="m-logo"><a href="#"><img src="img/m_logo.png" alt="모바일 로고 이미지"></a></div>
+        <div class="ham"><img src="img/ham.png" alt="모바일 메뉴 열림"></div>
+      </div><!-- .inner -->
+    </header>
+
+    <div class="m-gnb-wrap">
+      <ul class="m-gnb">
+        <li><a href="#menu1">Intro</a></li>
+        <li><a href="#menu2">AboutMe</a></li>
+        <li><a href="#menu3">Portfolio</a></li>
+        <li><a href="#menu4">Graphic</a></li>
+        <li><a href="#menu5">Promotion</a></li>
+        <li><a href="#menu6">Artwork</a></li>
+      </ul>
+
+      <img class="close" src="img/close.png" alt="닫기">
+    </div><!-- .m-gnb-wrap -->
+
+    <div id="fullpage">
+      <section class="section fp-auto-height" id="intro" data-anchor="menu1">
+        <div class="inner">
+          <div class="box-wrap">
+            <div class="box-top">
+              <div class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="box-con">
+              <h1>Welcome <br> To My <span>Portfolio</span></h1>
+              <div class="box-bottom"></div>
+            </div>
+          </div>
+
+          <img class="deco1" src="img/main_deco1.png" alt="배경이미지1">
+          <img class="deco2" src="img/main_deco2.png" alt="배경이미지2">
+        </div><!-- .inner -->
+      </section><!-- #intro -->
+
+      <section class="section" id="aboutme" data-anchor="menu2">
+        <div class="inner">
+          <div class="about">
+            <div class="tit">
+              <div class="star-f"></div>
+              <h2><span>A</span>bout <span class="span2">M</span>e</h2>
+              <div class="star-b"></div>
+            </div><!-- .tit -->
+
+            <div class="con">
+              <div class="left">
+                <img src="img/profile.png" alt="프로필 이미지">
+              </div>
+
+              <div class="right">
+                <div class="profile">
+                  <h3>Profile</h3>
+                  <div class="p-wrap">
+                    <ul class="p-left">
+                      <li><span>Name</span>남서연</li>
+                      <li><span>Birth</span>2000.10.07</li>
+                      <li><span>Phone</span>010-9929-2208</li>
+                      <li><span>Email</span>nsy96107@gmail.com</li>
+                    </ul>
+                    <ul class="p-right">
+                      <li><span>Education</span>동아대학교 패션디자인학과 졸업</li>
+                      <li><span></span>부산IT교육센터 웹디자인 수료</li>
+                      <li><span>Certificate</span>웹디자인기능사</li>
+                    </ul>
+                  </div><!-- .p-wrap -->
+                </div><!-- .profile -->
+
+                <div class="skill">
+                  <h3>Skill</h3>
+                  <div class="s-wrap">
+                    <ul class="s-left">
+                      <li><p>Photoshop</p></li>
+                      <li><p>Illustrator</p></li>
+                      <li><p>Figma</p></li>
+                    </ul>
+                    <ul class="s-right">
+                      <li><p>HTML/CSS</p></li>
+                      <li><p>JQuery</p></li>
+                    </ul>
+                  </div>
+                </div><!-- .skill -->
+              </div><!-- .right -->
+            </div><!-- .con -->
+          </div><!-- .about -->
+        </div><!-- .inner -->
+      </section><!-- #aboutme -->
+
+      <section class="section" id="portfolio" data-anchor="menu3">
+        <div class="inner">
+          <div class="portfolio">
+            <div class="tit">
+              <div class="star-f"></div>
+              <h2><span>P</span>ortfolio</h2>
+              <div class="star-b"></div>
+            </div><!-- .tit -->
+
+            <div class="con">
+              <div class="swiper pf-list">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <div class="left">
+                      <h4>1. 웹디자인, 구현</h4>
+                      <p class="p-tit">Aromine</p>
+
+                      <p><span>작업기간:</span>디자인 6일/구현 2일</p>
+                      <p><span>Tool:</span>Photoshop, Illustrator, <br>
+                        HTML, CSS, JQuery</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-box">
+                        <img class="aro" src="img/aromine_web.png" alt="아로마인 웹 이미지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/1_aromine/" class="site" target="_blank">Web Site</a>
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/aromine.pdf" class="pdf" target="_blank">Design Guide</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="left">
+                      <h4>2. 반응형 웹디자인, 구현</h4>
+                      <p class="p-tit">Note+</p>
+
+                      <p><span>작업기간:</span>디자인 6일/구현 4일</p>
+                      <p><span>Tool:</span>Figma, HTML, CSS, JQuery</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-box">
+                        <img class="note" src="img/noteplus_web.png" alt="노트플러스 웹 이미지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/2_noteplus/" class="site" target="_blank">Web Site</a>
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/noteplus.pdf" class="pdf" target="_blank">Design Guide</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="left">
+                      <h4>3. 반응형 웹디자인, 구현</h4>
+                      <p class="p-tit">Chupa Chups</p>
+
+                      <p><span>작업기간:</span>디자인 8일/구현 7일</p>
+                      <p><span>Tool:</span>Figma, Illustrator, <br>
+                        HTML, CSS, JQuery</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-box">
+                        <img class="chu" src="img/chupachups_web.png" alt="츄파춥스 웹 이미지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/3_chupachups/" class="site" target="_blank">Web Site</a>
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/chupachups.pdf" class="pdf" target="_blank">Design Guide</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="left">
+                      <h4>4. 모바일 앱 UI/UX 디자인</h4>
+                      <p class="p-tit">오,늘 기록</p>
+
+                      <p><span>작업기간:</span>8일</p>
+                      <p><span>Tool:</span>Figma, Photoshop, Procreate</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-box">
+                        <img class="one" src="img/oneul_pdf.png" alt="오,늘 기록 컨셉페이지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/oneul_story.pdf" class="site" target="_blank">Story Board</a>
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/oneul_write.pdf" class="pdf" target="_blank">Design Guide</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide cf">
+                    <div class="left">
+                      <h4>5. 쇼핑몰 솔루션</h4>
+                      <p class="p-tit">Check&Flower</p>
+
+                      <p><span>작업기간:</span>3일</p>
+                      <p><span>Tool:</span>Figma, Photoshop, cafe24</p>
+                      <p><span>기여도:</span>100% (카페24 템플릿 활용)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-left">
+                        <div class="banner">
+                          <a href="http://58.239.58.243:50601/2024/03/image/cf_banner.png" target="_blank"><img src="img/cf_banner.png" alt="체크앤플라워 배너이미지"></a>
+                        </div>
+                        <div class="detail">
+                          <img src="img/cf_detail.png" alt="체크앤플라워 상세페이지">
+                        </div>
+                      </div>
+                      <div class="img-right">
+                        <img src="img/checkflower_web.png" alt="체크앤플라워 웹 이미지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="https://nsy96107.cafe24.com/" class="site" target="_blank">Web Site</a>
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/checkflower.pdf" class="pdf" target="_blank">상세페이지</a>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="swiper-button-next">
+                  <img src="img/swiper_next.png" alt="다음 페이지로">
+                </div>
+                <div class="swiper-button-prev">
+                  <img src="img/swiper_prev.png" alt="이전 페이지로">
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div><!-- .portfolio -->
+        </div><!-- .inner -->
+      </section><!-- #portfolio -->
+
+      <section class="section" id="graphic" data-anchor="menu4">
+        <div class="inner">
+          <div class="graphic">
+            <div class="tit">
+              <div class="star-f"></div>
+                <h2><span>G</span>raphic</h2>
+                <div class="star-b"></div>
+            </div><!-- .tit -->
+  
+            <div class="con">
+              <div class="swiper gp-list">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide venti">
+                    <div class="left">
+                      <h4>1. 리브랜딩</h4>
+                      <p class="p-tit">더벤티</p>
+
+                      <p><span>작업기간:</span>1일</p>
+                      <p><span>Tool:</span>Illustrator, Photoshop</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="logo">
+                        <a href="http://58.239.58.243:50601/2024/03/image/venti_logo.jpg" target="_blank"><img src="img/venti_logo.png" alt="더벤티 로고이미지"></a>
+                      </div>
+                      <div class="img-bot">
+                        <div class="card">
+                          <a href="http://58.239.58.243:50601/2024/03/image/venti_card_detail.png" target="_blank"><img src="img/venti_card.png" alt="더벤티 명함이미지"></a>
+                        </div>
+                        <div class="cup">
+                          <a href="http://58.239.58.243:50601/2024/03/image/venti_cup.png" target="_blank"><img src="img/venti_cup.png" alt="더벤티 콜드컵 목업이미지"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide bg">
+                    <div class="left">
+                      <h4>2. 리브랜딩</h4>
+                      <p class="p-tit">브링그린</p>
+
+                      <p><span>작업기간:</span>3일</p>
+                      <p><span>Tool:</span>Illustrator, Photoshop</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-box">
+                        <img src="img/bringgreen_pdf.png" alt="브링그린 컨셉페이지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/bringgreen.pdf" class="pdf" target="_blank">Design Guide</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide aromine">
+                    <div class="left">
+                      <h4>3. 브랜딩 디자인</h4>
+                      <p class="p-tit">Aromine</p>
+
+                      <p><span>작업기간:</span>6일</p>
+                      <p><span>Tool:</span>Illustrator, Photoshop</p>
+                      <p><span>기여도:</span>100% (개인 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-left">
+                        <div class="logo">
+                          <a href="http://58.239.58.243:50601/2024/03/image/aromine_logo.jpg" target="_blank"><img src="img/aromine_logo.jpg" alt="아로마인 로고이미지"></a>
+                        </div>
+                        <div class="banner">
+                          <a href="http://58.239.58.243:50601/2024/03/image/aromine-banner.jpg" target="_blank"><img src="img/aromine_banner.jpg" alt="아로마인 배너이미지"></a>
+                        </div>
+                      </div>
+                      <div class="side">
+                        <a href="http://58.239.58.243:50601/2024/03/image/aromine-side.jpg" target="_blank"><img src="img/aromine_side.jpg" alt="아로마인 사이드 배너이미지"></a>
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/image/aromine-mockup.png" class="pdf" target="_blank">Mock Up</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide flow">
+                    <div class="left">
+                      <h4>4. 브랜딩 디자인</h4>
+                      <p class="p-tit">Flow,er</p>
+
+                      <p><span>작업기간:</span>약 2주간 (실물 제작 기간 제외)</p>
+                      <p><span>Tool:</span>Illustrator, Photoshop, Canva</p>
+                      <p><span>기여도:</span>25% (팀 프로젝트)</p>
+                    </div>
+                    <div class="right">
+                      <div class="img-left">
+                        <div class="logo">
+                          <a href="http://58.239.58.243:50601/2024/03/image/flower_logo.png" target="_blank"><img src="img/flower_logo.png" alt="플라워 로고이미지"></a>
+                        </div>
+                        <div class="leaflet">
+                          <img src="img/flower_leaflet.png" alt="플라워 리플렛">
+                        </div>
+                      </div>
+                      <div class="guide">
+                        <img src="img/flower_pdf.png" alt="플라워 컨셉페이지">
+                      </div>
+                    </div>
+
+                    <div class="button">
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/flower-leaflet.pdf" class="site" target="_blank">Leaflet</a>
+                      <a href="http://58.239.58.243:50601/2024/03/pdf/flower.pdf" class="pdf" target="_blank">Design Guide</a>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="swiper-button-next">
+                  <img src="img/swiper_next.png" alt="다음 페이지로">
+                </div>
+                <div class="swiper-button-prev">
+                  <img src="img/swiper_prev.png" alt="이전 페이지로">
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div><!-- .con -->
+          </div><!-- .graphic -->
+        </div><!-- .inner -->
+      </section><!-- #graphic -->
+
+      <section class="section" id="promotion" data-anchor="menu5">
+        <div class="inner">
+          <div class="promotion">
+            <div class="tit">
+              <div class="star-f"></div>
+                <h2><span>P</span>romotion</h2>
+                <div class="star-b"></div>
+            </div><!-- .tit -->
+
+            <div class="con">
+              <ul>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/landing1_1.jpg" target="_blank"><img src="img/landing1.jpg" alt="랜딩이미지1"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/landing2_1.jpg" target="_blank"><img src="img/landing2.jpg" alt="랜딩이미지2"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/landing3_1.jpg" target="_blank"><img src="img/landing3.jpg" alt="랜딩이미지3"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/landing4.jpg" target="_blank"><img src="img/landing4.jpg" alt="랜딩이미지4"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/landing5.jpg" target="_blank"><img src="img/landing5.jpg" alt="랜딩이미지5"></a>
+                </li>
+              </ul>
+            </div><!-- #con -->
+          </div><!-- #promotion -->
+        </div><!-- #inner -->
+      </section>
+
+      <section class="section" id="artwork" data-anchor="menu6">
+        <div class="inner">
+          <div class="artwork">
+            <div class="tit">
+              <div class="star-f"></div>
+              <h2><span>A</span>rtwork</h2>
+              <div class="star-b"></div>
+            </div><!-- .tit -->
+  
+            <div class="con">
+              <ul class="art">
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork1.jpg" target="_blank"><img src="img/artwork1.jpg" alt="그림 이미지1"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork2.jpg" target="_blank"><img src="img/artwork2.jpg" alt="그림 이미지2"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork3.jpg" target="_blank"><img src="img/artwork3.jpg" alt="그림 이미지3"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork4.jpg" target="_blank"><img src="img/artwork4.jpg" alt="그림 이미지4"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork5.jpg" target="_blank"><img src="img/artwork5.jpg" alt="그림 이미지5"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork6.jpg" target="_blank"><img src="img/artwork6.jpg" alt="그림 이미지6"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork7.jpg" target="_blank"><img src="img/artwork7.jpg" alt="그림 이미지7"></a>
+                </li>
+                <li>
+                  <a href="http://58.239.58.243:50601/2024/03/image/artwork8.jpg" target="_blank"><img src="img/artwork8.jpg" alt="그림 이미지8"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section><!-- #artwork -->
+
+      <footer class="section fp-auto-height" id="footer">
+        <ul>
+          <li>남서연 NAM SEO YEON</li>
+          <li>010-9929-2208</li>
+          <li>nsy96107@gmail.com</li>
+        </ul>
+  
+        <p>본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. 사용된 일부 이미지 및 폰트는 별도의 출처가 존재합니다.</p>
+        <p class="copy">Copyright ©2024 NAM SEO YEON All Rights Reserved</p>
+      </footer>
+    </div><!-- #fullpage -->
+  </div><!-- #wrap -->
+</body>
+</html>
